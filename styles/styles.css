@@ -16,11 +16,9 @@
   position: relative;
   float: right;
   text-align: right;
-  padding-right: 15px;
+  padding-right: 30px;
   margin-left: 0 !important;
   margin-right: 0 !important;
-  white-space: nowrap;
-  margin-top: 7px;
 }
 
 body {
@@ -41,13 +39,14 @@ body {
   top: 16px;
   position: fixed;
   width: 100%;
+  margin-top: 7px;
 }
 
 #topleft a {
   padding-left: 15px;
 }
 
-#topright a{
+#topright a {
   padding-right: 15px;
 }
 
@@ -62,15 +61,27 @@ body {
 }
 
 #footleft {
-
 }
 
 #footright {
-
 }
 
 .signin {
   border-radius: 2px;
+  border-color: rgb(66, 133, 244);
+  background: -webkit-linear-gradient(
+    top,
+    rgb(67, 135, 253),
+    rgb(70, 131, 234)
+  );
+  color: #fff;
+  font-weight: bold;
+  border-width: 1px;
+  border-style: solid;
+  display: inline-block;
+  line-height: 28px;
+  padding: 0px 12px;
+  vertical-align: text-bottom;
 }
 
 #search {
