@@ -39,7 +39,6 @@ body {
   top: 16px;
   position: fixed;
   width: 100%;
-  margin-top: 7px;
 }
 
 #topleft a {
@@ -48,6 +47,7 @@ body {
 
 #topright a {
   padding-right: 15px;
+  margin-top: 7px;
 }
 
 #footer {
@@ -78,7 +78,7 @@ body {
   font-weight: bold;
   border-width: 1px;
   border-style: solid;
-  display: inline-block;
+  display: block;
   line-height: 28px;
   padding: 0px 12px;
   vertical-align: text-bottom;
