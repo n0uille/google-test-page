@@ -118,11 +118,14 @@ body {
   display: block;
   height: 44px;
   border-radius: 24px;
+  font-size: 16px;
+  padding: 0 20px;
 }
 
-#search input {
-  height: 34px !important;
-  line-height: 34px;
+#search:hover,
+#search:focus {
+  box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+  border-color: rgba(223,225,229,0);
 }
 
 .searchbutton {
