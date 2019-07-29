@@ -118,6 +118,8 @@ body {
   display: block;
   height: 44px;
   border-radius: 24px;
+  font-size: 16px;
+  padding: 0 20px;
 }
 
 #search:hover {
